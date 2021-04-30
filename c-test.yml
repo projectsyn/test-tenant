@@ -1,3 +1,11 @@
 ---
 classes:
   - t-test.common
+
+
+parameters:
+  components:
+    argocd:
+      version: v2.0.0
+    metrics-server:
+      version: dde9a0431d516663a1298d504e4e490a590044a6
