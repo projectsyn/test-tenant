@@ -2,6 +2,8 @@
 classes:
   - t-test.common
 
+applications:
+  - resource-locker
 
 parameters:
   components:
@@ -9,6 +11,9 @@ parameters:
       version: v2.0.0
     metrics-server:
       version: dde9a0431d516663a1298d504e4e490a590044a6
+    resource-locker:
+      url: https://github.com/projectsyn/component-resource-locker.git
+      version: v2.3.1
 
   metrics_server:
     namespace: syn-metrics-server-test
